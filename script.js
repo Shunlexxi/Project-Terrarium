@@ -1,3 +1,6 @@
+alert('A terrarium is usually a sealable glass container containing soil and plants that can be opened for maintenance to acess the plants inside; however, a terrarium can also be open to the atmosphere - Wikipedia.')
+alert('Your mission here is to arrange all plants on the left and right in the glass container. Goodluck!')
+
 dragElement(document.getElementById('plant1'));
 dragElement(document.getElementById('plant2'));
 dragElement(document.getElementById('plant3'));
@@ -24,7 +27,6 @@ function dragElement(terrariumElement)
 
     //more pointer manipulation    
     terrariumElement.onpointerdown = pointerDrag;
-
 
 
     function pointerDrag(e) {
